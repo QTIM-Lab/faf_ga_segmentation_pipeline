@@ -20,6 +20,7 @@ docker compose up --build
 ## Repository structure
 
 Important files to download separately:
+- `models`: folder to create to store models
 - `models/classification_model_weights.ckpt`: classification model weights
 - `models/segmentation_model_weights.pth`: segmentation model weights
 - `imgs/`: folder where images can be placed - if images are somewhere else, mount the location in the docker-compose file
