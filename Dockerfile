@@ -21,6 +21,6 @@ COPY requirements.txt ./
 RUN pip install --upgrade pip setuptools wheel && \
     pip install --no-cache-dir -r requirements.txt
 
-RUN mkdir -p /app/ga_classifier/tensors /app/ga_segmentation/predictions /app/results
+RUN mkdir -p /app/ga_classifier/tensors /app/ga_segmentation/predictions
 
 CMD ["bash", "run_pipeline.sh"]
