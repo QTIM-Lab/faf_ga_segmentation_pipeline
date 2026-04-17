@@ -10,6 +10,8 @@ N_WORKERS=10
 BATCH_SIZE=16
 GPU=0
 
+mkdir -p $OUT_FOLDER
+
 echo "Starting Classification of GA"
 
 python ga_classifier/classify.py \
