@@ -1,4 +1,3 @@
-models/*
 .env
 *.csv
 *.ckpt
@@ -6,5 +5,5 @@ models/*
 *.pth
 *.npy
 ga_classifier/tensors/
-results
+results/*
 imgs/*
